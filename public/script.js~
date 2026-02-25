@@ -120,7 +120,9 @@ document.querySelectorAll('.delete-btn').forEach(btn => {
 });
 
 
-
+/* =========================
+   Balance Color Change
+========================= */
 const balance = document.querySelector("#balance");
 
 if (balance) {

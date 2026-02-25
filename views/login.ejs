@@ -1,28 +1,21 @@
-<!-- views/login.ejs -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="/style.css"> <!-- Linking to the CSS file in "public" folder -->
+<title>ExpensePilot Login</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login to Money Tracker</h2>
-        <form action="/login" method="POST">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
 
-            <button type="submit">Login</button>
-        </form>
-    </div>
-    <link rel="stylesheet" href="/style.css">  <!-- This will use the style.css file from "public" -->
-<script src="/script.js"></script>  <!-- This will use the script.js file from "public" -->
+<div class="container">
+<h1>ExpensePilot</h1>
 
-    <script src="/script.js"></script> <!-- Linking to the JavaScript file in "public" folder -->
+<form method="POST" action="/login">
+<input type="text" name="username" placeholder="Username" required>
+<input type="password" name="password" placeholder="Password" required>
+<button type="submit">Login</button>
+</form>
+
+</div>
 </body>
 </html>
