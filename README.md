@@ -45,33 +45,42 @@ It provides a minimal dashboard where users can log expenses and store them in a
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
+```plaintext
 ExpensePilot/
 │
 ├── src/
-│   ├── config/          # DB connection, environment configs
+│   ├── config/                 # DB connection, environment configs
 │   │   └── db.js
 │   │
-│   ├── routes/          # Express routes
+│   ├── routes/                 # Express routes
 │   │   └── expenseRoutes.js
 │   │
-│   ├── controllers/     # Logic for routes
+│   ├── controllers/            # Route logic
 │   │   └── expenseController.js
 │   │
-│   ├── models/          # Database schemas
+│   ├── models/                 # Database schemas
 │   │   └── expenseModel.js
 │   │
-│   ├── middleware/      # Auth / validation middleware
+│   ├── middleware/             # Auth / validation middleware
 │   │
-│   └── app.js           # Express app config
+│   └── app.js                  # Express app configuration
 │
-├── views/               # EJS templates
+├── views/                      # EJS templates
 │   ├── login.ejs
 │   └── tracker.ejs
 │
-├── public/              # Static assets
+├── public/                     # Static assets
 │   ├── css/
 │   ├── js/
 │   └── images/
+│
+├── .env                        # Environment variables
+├── .gitignore
+├── package.json
+└── server.js                   # Application entry point
+```
 
 
 ---
