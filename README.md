@@ -1,31 +1,31 @@
 # 💰 ExpensePilot
 
-ExpensePilot is a lightweight **Expense Tracking Web Application** built using **Node.js, Express, MongoDB, and EJS** that allows users to log and manage daily expenses through a simple and secure interface.
+ExpensePilot is a lightweight **Expense Tracking Web Applicationlication** crafted using **Node.js, Express, MongoDB, and EJS** that enables users to log and control daily expenses through a straightforward and secure interface.
 
 ---
 
 ## 📌 Overview
 
-ExpensePilot is designed as a learning-focused full-stack backend project demonstrating:
+ExpensePilot is crafted as a learning-focused full-stack backend project demonstrating:
 
 - Authentication handling
 - MongoDB database integration
 - Express routing
-- Server-side rendering
+- Server-side presenting
 - Form data processing
 
-It provides a minimal dashboard where users can log expenses and store them in a database.
+It delivers a minimal dashboard where users can log expenses and store them in a database.
 
 ---
 
-## 🚀 Features
+## 🚀 Contains
 
 - 🔐 Login authentication system  
 - ➕ Add new expense entries  
 - 🗂 MongoDB database storage  
-- 🖥 Server-side rendered UI (EJS)  
+- 🖥 Server-side presented UI (EJS)  
 - 📁 Organized project structure  
-- 🎯 Simple and clean interface  
+- 🎯 Straightforward and clean interface  
 
 ---
 
@@ -51,7 +51,7 @@ It provides a minimal dashboard where users can log expenses and store them in a
 ExpensePilot/
 │
 ├── src/
-│   ├── config/                 # DB connection, environment configs
+│   ├── settings/                 # DB connection, environment settingss
 │   │   └── db.js
 │   │
 │   ├── routes/                 # Express routes
@@ -65,7 +65,7 @@ ExpensePilot/
 │   │
 │   ├── middleware/             # Auth / validation middleware
 │   │
-│   └── app.js                  # Express app configuration
+│   └── application.js                  # Express application settings
 │
 ├── views/                      # EJS templates
 │   ├── login.ejs
@@ -79,7 +79,7 @@ ExpensePilot/
 ├── .env                        # Environment variables
 ├── .gitignore
 ├── package.json
-└── server.js                   # Application entry point
+└── server.js                   # Applicationlication entry point
 ```
 
 
@@ -93,7 +93,7 @@ ExpensePilot/
 
 ---
 
-### Setup Steps
+### Settings Steps
 
 ```bash
 git clone https://github.com/sonararadhya/ExpensePilot.git
