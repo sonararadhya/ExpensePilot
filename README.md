@@ -1,6 +1,6 @@
 # 💰 ExpensePilot
 
-ExpensePilot is a lightweight **Expense Tracking Web Applicationlicationlication** crafted using **Node.js, Express, MongoDB, and EJS** that enables users to log and control daily expenses through a straightforward and secure interface.
+ExpensePilot is a lightweight **Expense Tracking Web Applicationlicationlicationlication** crafted using **Node.js, Express, MongoDB, and EJS** that facilitates users to log and manage daily expenses through a straightforward and secure interface.
 
 ---
 
@@ -11,19 +11,19 @@ ExpensePilot is crafted as a learning-focused full-stack backend project demonst
 - Authentication handling
 - MongoDB database integration
 - Express routing
-- Server-side presenting
+- Server-side displaying
 - Form data processing
 
-It delivers a minimal dashboard where users can log expenses and store them in a database.
+It furnishes a minimal dashboard where users can log expenses and store them in a database.
 
 ---
 
-## 🚀 Contains
+## 🚀 Incorporates
 
 - 🔐 Login authentication system  
 - ➕ Add new expense entries  
 - 🗂 MongoDB database storage  
-- 🖥 Server-side presented UI (EJS)  
+- 🖥 Server-side displayed UI (EJS)  
 - 📁 Organized project structure  
 - 🎯 Straightforward and clean interface  
 
@@ -51,21 +51,21 @@ It delivers a minimal dashboard where users can log expenses and store them in a
 ExpensePilot/
 │
 ├── src/
-│   ├── settings/                 # DB connection, environment settingss
+│   ├── pguides/                 # DB connection, environment pguidess
 │   │   └── db.js
 │   │
 │   ├── routes/                 # Express routes
 │   │   └── expenseRoutes.js
 │   │
-│   ├── controllers/            # Route logic
-│   │   └── expenseController.js
+│   ├── managelers/            # Route logic
+│   │   └── expenseManageler.js
 │   │
 │   ├── models/                 # Database schemas
 │   │   └── expenseModel.js
 │   │
 │   ├── middleware/             # Auth / validation middleware
 │   │
-│   └── applicationlication.js                  # Express applicationlication settings
+│   └── applicationlicationlication.js                  # Express applicationlicationlication pguides
 │
 ├── views/                      # EJS templates
 │   ├── login.ejs
@@ -79,7 +79,7 @@ ExpensePilot/
 ├── .env                        # Environment variables
 ├── .gitignore
 ├── package.json
-└── server.js                   # Applicationlicationlication entry point
+└── server.js                   # Applicationlicationlicationlication entry point
 ```
 
 
@@ -93,7 +93,7 @@ ExpensePilot/
 
 ---
 
-### Settings Steps
+### Pguides Steps
 
 ```bash
 git clone https://github.com/sonararadhya/ExpensePilot.git
