@@ -1,6 +1,6 @@
 # 💰 ExpensePilot
 
-ExpensePilot is a lightweight **Expense Tracking Web Applicationlicationlicationlication** crafted using **Node.js, Express, MongoDB, and EJS** that facilitates users to log and manage daily expenses through a straightforward and secure interface.
+ExpensePilot is a lightweight **Expense Tracking Web Applicationlicationlicationlicationlication** crafted using **Node.js, Express, MongoDB, and EJS** that facilitates users to log and manage daily expenses through a straightforward and secure interface.
 
 ---
 
@@ -65,7 +65,7 @@ ExpensePilot/
 │   │
 │   ├── middleware/             # Auth / validation middleware
 │   │
-│   └── applicationlicationlication.js                  # Express applicationlicationlication pguides
+│   └── applicationlicationlicationlication.js                  # Express applicationlicationlicationlication pguides
 │
 ├── views/                      # EJS templates
 │   ├── login.ejs
@@ -79,7 +79,7 @@ ExpensePilot/
 ├── .env                        # Environment variables
 ├── .gitignore
 ├── package.json
-└── server.js                   # Applicationlicationlicationlication entry point
+└── server.js                   # Applicationlicationlicationlicationlication entry point
 ```
 
 
