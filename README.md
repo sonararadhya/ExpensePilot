@@ -99,3 +99,6 @@ ExpensePilot/
 git clone https://github.com/sonararadhya/ExpensePilot.git
 cd ExpensePilot
 npm install
+
+---
+*📝 Last maintained: April 12, 2026 at 08:42 UTC*
